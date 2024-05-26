@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+#cart img{
+    height: 30px;
+    width: 100%;
+}
+
+#header{
+    background-color: rgb(202, 219, 228);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 60px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+#navbar li a:hover{
+    color: rgb(205, 50, 138);
+}
+
+#navbar li a:active{
+    color: rgb(205, 50, 138);
+}
+
+
+#mobile{
+    margin-right: 35px;
+    display: none;
+    align-items: center;
+}
+
+
+.Sale{
+   background-image: url(BeachBkgd.jpg);
+   height: 550px;
+}
+
+.Sale a{
+  float: right;
+  padding: 0px;
+}
+
+#Summer{
+    width: 800px;
+    height: 550px;
+}
+
+#simg{
+    height: 550px;
+    width: 350px;
+}
+
+.Sale img{
+    width: 100%;
+}
+
+.Sale #content{
+    padding: 230px 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.fe{
+    width: 150px;
+    float: left;
+    padding: 25px 35px;
+    text-align: center;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    margin: 15px 0;
+}
+
+#feature{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 25px;
+    /* flex-wrap: wrap; */
+}
+
+#feature .fe:hover{
+    box-shadow: 10px 10px 54px rgba(37, 36, 36, 0.03);
+}
+
+#feature .fe h6{
+    font-size: medium;
+    border-radius: 4px;
+    background-color: rgb(236, 189, 210);
+}
+
+#feature .fe img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+#Products{
+    text-align: center;
+}
+
+#Products .pr1{
+    width: 220px;
+    padding: 10px 12px;
+    border: 1px solid rgb(158, 198, 232);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+}
+
+#Products .pr1:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#Products .pr1 img{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#Products .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#Products .container .pr1{
+    padding: 40px;
+    margin: 20px;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    align-items: center;
+    text-align: center;
+    background-image: url(Sale-bckg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 55vh;
+    font-size: xx-large;
+}    
+
+button.normal{
+    font-size: xx-large;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#banner button:hover{
+   background-color: cadetblue;
+   color: brown;
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+}
+
+#sm-banner .banner-box1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    align-items: flex-start;
+    background-image: url(banner-bkgd-2.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    min-width: 730px;
+    height: 55vh;
+    font-size: x-large;
+    width: 50%;
+}
+
+
+#sm-banner .banner-box2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    align-items: center;
+    background-image: url(accessories.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 730px;
+    height: 33vh;
+    font-size: larger;
+    width: 50%;
+}
+
+button.white{
+    font-size: xx-large;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;   
+}
+
+#sm-banner button:hover{
+    background-color: rgb(28, 126, 111);
+    color: wheat;
+ }
+
+
+ #Category {
+    text-align: center;
+    font-size: x-large;
+}
+
+#Category .pr1{
+    width: 220px;
+    padding: 10px 12px;
+    border: 1px solid rgb(158, 198, 232);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+}
+
+#Category .pr1:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#Category .pr1 img{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#Category .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#Category .container .pr1{
+    padding: 40px;
+    margin: 20px;
+}
+
+
+#footwear{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    background-image: url(footwear.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 95vh;
+    font-size: xx-large;
+    border: 1px solid gainsboro;
+}    
+
+footwear.normal{
+    font-size: xx-large;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(blackbckgd.jpg);
+    color: white;
+    height: 250px;
+    font-size: x-large;
+}
+
+#newsletter span{
+    color: chocolate;
+}
+
+#newsletter input{
+   height: 40px;
+   width: 300px;
+   margin: 20px;
+   border-radius: 8px;
+}
+
+#newsletter button{
+    width: 100px;
+    height: 40px;
+    margin: 10px 20px;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 8px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.row img{
+    width: 150px;
+    height: 70px;
+}
+
+.col-install p{
+  padding-top: 20px;
+}
+
+footer .follow i:hover,
+footer a:hover{
+    cursor: pointer;
+    color:darkcyan;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 799px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start; 
+     } 
+     .Sale #content{
+        padding: 200px;
+     }
+
+     .Sale{
+        height: 45vh;
+        padding: 0px 100px;
+        background-position: top 30% right 30%;
+    }
+
+    #feature {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 25px 25px;
+        flex-wrap: wrap;
+    }
+    #sm-banner {
+        height: 20vh;
+        width: 100%;
+    }
+    
+    #sm-banner .banner-box1{
+        min-height: 100%;
+        height: 30vh;
+    }
+    
+
+}
+
+#navbar li{
+    margin-bottom: 25px;
+}
+
+#navbar.active {
+   right: 0px;
+}
+
+#mobile{
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#mobile i{
+    color: rgb(33, 32, 32);
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+#close{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: rgb(11, 11, 48);
+    font-size: 24px;
+}
+
+#lg-bag{
+    display: none;
+}
+
